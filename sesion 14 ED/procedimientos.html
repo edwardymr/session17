@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedimientos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="barra-navegacion">
+            <ul class="menu-navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="desplegable"><a href="#">Productos</a>
+                    <ul class="submenu">
+                        <li><a href="productos.html#eticos">Éticos</a></li>
+                        <li><a href="productos.html#hospitalarios">Hospitalarios</a></li>
+                        <li><a href="productos.html#comerciales">Comerciales</a></li>
+                    </ul>
+                </li>
+                <li class="desplegable"><a href="procedimientos.html">Procedimientos</a>
+                    <ul class="submenu">
+                        <li><a href="#">Inyectología</a></li>
+                        <li><a href="#">Toma de presión</a></li>
+                        <li><a href="#">Oximetría</a></li>
+                        <li><a href="#">Glucometría</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <br>
+            </ul>
+        </nav>
+    </header>
+
+    </div>
+    <main>
+        <div>
+            <section id="inyectologia">
+                <div class="inyectologia">
+                    <div class="caja-inyectologia">
+                        <div><img class="img-inyectologia" src="inyectologia.jpg" alt=""></div>
+                        <div class="texto-inyectologia">
+                            <h1>INYECTOLOGÍA</h1><br>
+                            <p >La importancia de la inyectología radica en su capacidad para garantizar que los
+                                tratamientos lleguen de manera segura y efectiva al organismo. Esto es clave en entornos
+                                médicos, donde la correcta aplicación de una inyección puede marcar la diferencia en la
+                                recuperación de un paciente. <br><br>Permite que los profesionales de la salud puedan:</p><br><br>
+                            <ul>
+                                <li >Administrar medicamentos de acción rápida: algunas medicinas, como los analgésicos o
+                                    antibióticos, requieren llegar rápidamente al flujo sanguíneo, lo cual se logra
+                                    mediante una inyección.</li>
+                                <li >Asegurar una dosificación precisa: al inyectar un medicamento, el profesional puede
+                                    controlar la cantidad exacta que el paciente necesita, reduciendo el riesgo de
+                                    errores en la dosis.</li>
+                                <li >Minimizar los efectos secundarios: al aplicar directamente en el cuerpo, ciertos
+                                    medicamentos evitan el sistema digestivo, disminuyendo el riesgo de efectos
+                                    secundarios como malestar gástrico o irritación estomacal</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="box">
+                            <h2>FORMULARIO</h2>
+                            <form class="formulario-inyectologia" id="formulario-inyectologia">
+                                <label>Nombre: </label><br>
+                                <input type="text" id="nombre" name="nombre" required><br>
+                                <label>Dirección: </label><br>
+                                <input type="text" id="direccion" name="direccion" required><br>
+                                <label>Edad: </label><br>
+                                <input type="number" id="edad" name="edad" required><br>
+                                <label>Teléfono: </label><br>
+                                <input type="number" id="telefono" name="telefono" required><br>
+                                <label>Correo Electronico: </label><br>
+                                <input type="email" id="email" name="email" required><br>
+                                <label for="Seleccione Género">Seleccione Género</label><br><br>
+                                <label for="Género"> Masculino</label>
+                                <input type="radio" id="genero_masculino" name="genero" value="genero_masculino"
+                                    required>
+                                <label for="genero_femenino"> Femenino</label>
+                                <input type="radio" id="genero_femenino" name="genero" value="genero_femenino" required>
+                                <label for="genero_otro"> Otro</label>
+                                <input type="radio" id="genero_otro" name="genero" value="genero_otro" required><br><br>
+                                <label>Medicamento a suministrar: </label>
+                                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                                
+                                <button class="boton" type="submit">Enviar</button><br>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="pie">
+            <h4>CONTACTO</h4><br>
+            <p>Dirección: Mz X casa 32 B/Cantilito</p><br>
+            <p>Santa Marta - Colombia</p><br>
+            <p>Telefono 6054230189 - 3102936738</p><br>
+        </div>
+
+        <div class="pie">
+            <h4>HORARIOS</h4><br>
+            <p>Lunes a Jueves: 7:30 am a 10 pm</p><br>
+            <p>Viernes: 7:30 am a 6 pm</p><br>
+            <p>Sabados: 6 pm a 10 pm</p><br>
+            <p>Domingos y festivos: 8 am a 9 pm</p><br>
+        </div>
+        <div class="pie">
+            <h4>REDES SOCIALES</h4><br>
+            <p><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
+                    <path
+                        d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z">
+                    </path>
+                </svg>@drogueriamxiofertas.sm</p>
+        </div>
+    </footer>
+</body>
+
+</html>
